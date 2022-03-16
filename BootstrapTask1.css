@@ -1,0 +1,99 @@
+*{ padding: 0; margin:0; font-family: sans-serif; box-sizing: border-box; }
+    .body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+    }
+
+    .flex {
+        background: url('images1/bg1.jpg') no-repeat 0% 0% / 100% 100%;
+        color: #ffffff;
+        /* width: 100%;  */
+        /* text-align: center; */
+    }
+    .flex-color {
+        background: linear-gradient(to bottom, rgba(171, 47, 82, 0.82) 0%, #ffaf53 100%);
+        /* padding: 220px 0px 170px; */
+    }
+    .second-flex{
+        background: url('images1/bg1.jpg') no-repeat 0% 0% / 100% 100%;
+        /* color: #ffffff; */
+    }
+    .second-flex-color{
+        background: linear-gradient(to bottom, rgba(0,0,0,0.9) 0%, #121314 100%);
+        /* padding: 220px 0px 170px; */
+    }
+  
+    .nav {
+        /* position: fixed; */
+        width: 100%;
+        min-height: 50px;
+        background: transparent;
+    }
+
+    .h1-2 {
+        color: #ab2f52;
+    }
+
+    .col h5 {
+        color: #ffaf53;
+    }
+
+    .ocolor {
+        background: #ffaf53;
+    }
+
+    .color {
+        background: #ab2f52;
+        /* border-radius: 30px; */
+    }
+
+    .span-row {
+        background: #ab2f52;
+        height: 2px;
+        left: calc(50% - 22px);
+        position: absolute;
+        width: 45px;
+        /* margin-top: 20px; */
+    }
+    .span{
+	background: #a7a0a2;
+    height: 3px;
+    position: absolute;
+    width: 45px;
+	margin-left: -25px;
+	margin-bottom: 30px;
+}
+
+    .col p {
+        color: grey;
+    }
+    .card-p{
+        color: grey;
+    }
+    .bg-color {
+        background-color: #f3eded;
+    } 
+    .bttn {
+        position: relative;
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+        background: #ab2f52;
+        padding: 12px 45px;
+        font-size: 15px;
+        border-radius: 30px;
+        margin-top: 30px;
+        border: none;
+        margin-left: 33%;
+    }
+    .icon-color{
+        font-size:48px;color:#ffaf53;
+    }
+    .div-bg-color{
+        background-color:rgba(0,0,0,0.9);
+    }
+    .name-color{
+        color:#ffaf53;
+    }
+    .commant-icon{
+        font-size:48px;color:#ab2f52;
+    }

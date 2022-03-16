@@ -1,0 +1,103 @@
+*{ padding: 0; margin:0; font-family: sans-serif; box-sizing: border-box; }
+
+@media (max-width: 770px){
+
+    .menu{
+        display: none;
+    }
+    .flex-color p{
+        text-align: center;
+        color: white;
+        margin: 15px auto 0px;
+        width:100%
+    }
+    .flex h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .flex-color p{
+        text-align: center;
+        color: white;
+        margin: 30px auto 0px;
+        width:100%;
+        
+    }
+    .btn-flex{
+        background: #ab2f52;
+        padding: 10px 35px;
+        font-size: 15px;
+        border-radius: 30px;
+        margin-top: 40px;
+        border: none;
+    }
+    .container p{
+        color: grey;
+        width:100%
+    }
+    .left-working2-col{
+        flex-basis: 100%;
+        font-size: 80%;
+        font-weight: 600px;
+    }
+    .left-working2-col h1{
+        color: #151515;
+        font-family: "Open Sans", sans-serif;
+    }
+    .left-working2-col h5{
+        /* font-weight: 600; */
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        font-size: 13px;
+        color: #ffaf53;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .left-working2-col p{
+        padding-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0px;
+        color:grey;
+    
+        padding-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .right-working2-col{
+        flex-wrap: wrap;
+    }
+    .right-working2-col {
+        flex-basis: 100%;
+    }
+   .recent-work-header{
+       width: 100%;
+   }
+   .recent-work-box img{
+	width: 100%;
+}
+.right-footer-col{
+    width: 100%;
+    flex-basis: 100%;
+}
+.left-footer-col{
+    width: 100%;
+    flex-basis: 100%;
+}
+.footer-row{
+    width: 100%;
+}
+.bttn {
+    position: relative;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    background: #ab2f52;
+    padding: 12px 45px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 0px;
+    border: none;
+	margin-left: 05%;
+}
+}
